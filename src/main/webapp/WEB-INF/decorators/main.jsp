@@ -5,28 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <title><sitemesh:write property='title'/></title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .header {
-            background-color: #f8f9fa;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #dee2e6;
-        }
-        .content {
-            padding: 20px;
-        }
-        .footer {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-top: 1px solid #dee2e6;
-        }
-    </style>
     <sitemesh:write property='head'/>
 </head>
 <body>
